@@ -22,3 +22,11 @@ def update_user(id, name, age):
     cursor.execute('''''')
     connection.commit()   
     connection.close()     
+    
+   
+def delete_user(id):
+    connection = sqlite3.connect(".db")   
+    cursor = connection.cursor()
+    cursor.execute('''''') 
+    connection.commit()
+    connection.close()  
