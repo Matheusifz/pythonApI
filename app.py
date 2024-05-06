@@ -8,3 +8,10 @@ def create_table():
     connection.close()
     
 
+def create_user(name, age):
+     connection = sqlite3.connect('.db')
+     cursor = connection.cursor()
+     cursor.execute('''''')
+     connection.commit()
+     connection.close()   
+        
