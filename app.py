@@ -1,8 +1,8 @@
-from CreateTable import create_table
 from CreateUser import create_user
+from UpdateUser import update_user
+from ListUsers import list_users
     
-create_table()
 
+list_users(id, "John", 26)
 
-create_user    
 
