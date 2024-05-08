@@ -1,32 +1,8 @@
-import sqlite3
-
-def create_table():
-    connection = sqlite3.connect('.db')
-    cursor = connection.cursor()
-    cursor.execute('''''')
-    connection.commit()
-    connection.close()
+from CreateTable import create_table
+from CreateUser import create_user
     
-
-def create_user(name, age):
-     connection = sqlite3.connect('.db')
-     cursor = connection.cursor()
-     cursor.execute('''''')
-     connection.commit()
-     connection.close()   
+create_table()
 
 
-def update_user(id, name, age):
-    connection = sqlite3.connect('.db')
-    cursor = connection.cursor()
-    cursor.execute('''''')
-    connection.commit()   
-    connection.close()     
-    
-   
-def delete_user(id):
-    connection = sqlite3.connect(".db")   
-    cursor = connection.cursor()
-    cursor.execute('''''') 
-    connection.commit()
-    connection.close()  
+create_user    
+
